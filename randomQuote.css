@@ -1,0 +1,54 @@
+body {
+  font-family: 'ABeeZee', sans-serif;
+  background: steelblue;
+  transition: background 0.8s;
+}
+
+.quote{
+  background: yellow;
+  width: 80%;
+  height: 80%;
+  padding: 5px 15px;
+  margin: 0 auto;
+  transition: background 0.6s;
+}
+
+.author {
+  text-align: right;
+}
+
+.vl {
+    border-left: 8px solid steelblue;
+    display: inline-block;
+    text-align: center;
+      vertical-align: middle;
+}
+
+.inner {
+  padding: 15px 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer {
+  text-align: center;
+}
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5%;
+    transition: background 0.8s;
+}
+
+.btn:hover {
+  color: white;
+  background: steelblue;
+}
